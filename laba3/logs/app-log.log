@@ -1,0 +1,102 @@
+[2021-12-21 19:49:58,174] INFO [mzik.App: 13] Program started
+[2021-12-21 19:49:58,977] INFO [mzik.service.ConversationServiceImpl: 21] greeting user...
+[2021-12-21 19:49:58,977] INFO [mzik.service.IOServiceImpl: 29] println: Hello! Welcome!
+[2021-12-21 19:49:58,977] INFO [mzik.service.ConversationServiceImpl: 24] start getting command
+[2021-12-21 19:49:58,977] INFO [mzik.service.ConversationServiceImpl: 68] getting command
+[2021-12-21 19:49:58,977] INFO [mzik.service.IOServiceImpl: 23] print: Please enter command("find-all" or "find-by-id" or "exit" to exit):
+[2021-12-21 19:50:07,689] INFO [mzik.service.ConversationServiceImpl: 28] commad got: find-all
+[2021-12-21 19:50:07,689] INFO [mzik.service.ConversationServiceImpl: 60] start finding all
+[2021-12-21 19:50:07,689] INFO [mzik.dao.TicketDao: 25] start of dao method find all tickets
+[2021-12-21 19:50:23,679] INFO [mzik.App: 13] Program started
+[2021-12-21 19:50:24,195] INFO [mzik.service.ConversationServiceImpl: 21] greeting user...
+[2021-12-21 19:50:24,195] INFO [mzik.service.IOServiceImpl: 29] println: Hello! Welcome!
+[2021-12-21 19:50:24,195] INFO [mzik.service.ConversationServiceImpl: 24] start getting command
+[2021-12-21 19:50:24,195] INFO [mzik.service.ConversationServiceImpl: 68] getting command
+[2021-12-21 19:50:24,195] INFO [mzik.service.IOServiceImpl: 23] print: Please enter command("find-all" or "find-by-id" or "exit" to exit):
+[2021-12-21 19:50:32,442] INFO [mzik.service.ConversationServiceImpl: 28] commad got: find-all
+[2021-12-21 19:50:32,442] INFO [mzik.service.ConversationServiceImpl: 60] start finding all
+[2021-12-21 19:50:32,442] INFO [mzik.dao.TicketDao: 25] start of dao method find all tickets
+[2021-12-21 19:50:56,410] INFO [mzik.App: 13] Program started
+[2021-12-21 19:50:57,035] INFO [mzik.service.ConversationServiceImpl: 21] greeting user...
+[2021-12-21 19:50:57,035] INFO [mzik.service.IOServiceImpl: 29] println: Hello! Welcome!
+[2021-12-21 19:50:57,035] INFO [mzik.service.ConversationServiceImpl: 24] start getting command
+[2021-12-21 19:50:57,035] INFO [mzik.service.ConversationServiceImpl: 68] getting command
+[2021-12-21 19:50:57,035] INFO [mzik.service.IOServiceImpl: 23] print: Please enter command("find-all" or "find-by-id" or "exit" to exit):
+[2021-12-21 19:51:06,146] INFO [mzik.service.ConversationServiceImpl: 28] commad got: find-all
+[2021-12-21 19:51:06,146] INFO [mzik.service.ConversationServiceImpl: 60] start finding all
+[2021-12-21 19:51:06,146] INFO [mzik.dao.TicketDao: 25] start of dao method find all tickets
+[2021-12-21 19:51:16,614] INFO [mzik.App: 13] Program started
+[2021-12-21 19:51:17,270] INFO [mzik.service.ConversationServiceImpl: 21] greeting user...
+[2021-12-21 19:51:17,270] INFO [mzik.service.IOServiceImpl: 29] println: Hello! Welcome!
+[2021-12-21 19:51:17,270] INFO [mzik.service.ConversationServiceImpl: 24] start getting command
+[2021-12-21 19:51:17,270] INFO [mzik.service.ConversationServiceImpl: 68] getting command
+[2021-12-21 19:51:17,270] INFO [mzik.service.IOServiceImpl: 23] print: Please enter command("find-all" or "find-by-id" or "exit" to exit):
+[2021-12-21 19:51:26,280] INFO [mzik.service.ConversationServiceImpl: 28] commad got: find-by-id
+[2021-12-21 19:51:26,280] INFO [mzik.service.ConversationServiceImpl: 42] start finding by id
+[2021-12-21 19:51:26,280] INFO [mzik.service.IOServiceImpl: 23] print: Please enter id:
+[2021-12-21 19:51:29,326] INFO [mzik.service.ConversationServiceImpl: 45] got id from user: 4
+[2021-12-21 19:51:29,326] INFO [mzik.service.IOServiceImpl: 29] println: Output:
+[2021-12-21 19:51:29,326] INFO [mzik.dao.TicketDao: 43] start of dao method find ticket by id: 4
+[2021-12-21 20:41:37,147] INFO [mzik.App: 16] Program started
+[2021-12-21 20:41:37,693] INFO [mzik.service.ConversationServiceImpl: 21] greeting user...
+[2021-12-21 20:41:37,693] INFO [mzik.service.IOServiceImpl: 29] println: Hello! Welcome!
+[2021-12-21 20:41:37,693] INFO [mzik.service.ConversationServiceImpl: 24] start getting command
+[2021-12-21 20:41:37,693] INFO [mzik.service.ConversationServiceImpl: 68] getting command
+[2021-12-21 20:41:37,693] INFO [mzik.service.IOServiceImpl: 23] print: Please enter command("find-all" or "find-by-id" or "exit" to exit):
+[2021-12-21 20:42:51,009] INFO [mzik.App: 16] Program started
+[2021-12-21 20:42:51,696] INFO [mzik.service.ConversationServiceImpl: 21] greeting user...
+[2021-12-21 20:42:51,696] INFO [mzik.service.IOServiceImpl: 29] println: Hello! Welcome!
+[2021-12-21 20:42:51,696] INFO [mzik.service.ConversationServiceImpl: 24] start getting command
+[2021-12-21 20:42:51,696] INFO [mzik.service.ConversationServiceImpl: 68] getting command
+[2021-12-21 20:42:51,696] INFO [mzik.service.IOServiceImpl: 23] print: Please enter command("find-all" or "find-by-id" or "exit" to exit):
+[2021-12-21 20:43:00,535] INFO [mzik.service.ConversationServiceImpl: 28] commad got: find-all
+[2021-12-21 20:43:07,447] INFO [mzik.service.ConversationServiceImpl: 60] start finding all
+[2021-12-21 20:43:07,447] INFO [mzik.dao.TicketDao: 25] start of dao method find all tickets
+[2021-12-21 20:43:27,657] INFO [mzik.App: 16] Program started
+[2021-12-21 20:43:28,266] INFO [mzik.service.ConversationServiceImpl: 21] greeting user...
+[2021-12-21 20:43:28,266] INFO [mzik.service.IOServiceImpl: 29] println: Hello! Welcome!
+[2021-12-21 20:43:28,266] INFO [mzik.service.ConversationServiceImpl: 24] start getting command
+[2021-12-21 20:43:28,266] INFO [mzik.service.ConversationServiceImpl: 68] getting command
+[2021-12-21 20:43:28,266] INFO [mzik.service.IOServiceImpl: 23] print: Please enter command("find-all" or "find-by-id" or "exit" to exit):
+[2021-12-21 20:43:33,208] INFO [mzik.service.ConversationServiceImpl: 28] commad got: find-all
+[2021-12-21 20:43:40,264] INFO [mzik.service.ConversationServiceImpl: 60] start finding all
+[2021-12-21 20:44:00,987] INFO [mzik.dao.TicketDao: 25] start of dao method find all tickets
+[2021-12-21 20:44:57,863] INFO [mzik.App: 16] Program started
+[2021-12-21 20:44:58,535] INFO [mzik.service.ConversationServiceImpl: 21] greeting user...
+[2021-12-21 20:44:58,535] INFO [mzik.service.IOServiceImpl: 29] println: Hello! Welcome!
+[2021-12-21 20:44:58,535] INFO [mzik.service.ConversationServiceImpl: 24] start getting command
+[2021-12-21 20:44:58,535] INFO [mzik.service.ConversationServiceImpl: 68] getting command
+[2021-12-21 20:44:58,535] INFO [mzik.service.IOServiceImpl: 23] print: Please enter command("find-all" or "find-by-id" or "exit" to exit):
+[2021-12-21 20:45:18,796] INFO [mzik.service.ConversationServiceImpl: 28] commad got: find-all
+[2021-12-21 20:45:18,796] INFO [mzik.service.ConversationServiceImpl: 60] start finding all
+[2021-12-21 20:45:18,796] INFO [mzik.dao.TicketDao: 25] start of dao method find all tickets
+[2021-12-21 20:45:19,108] INFO [mzik.dao.TicketDao: 36] end of find all method
+[2021-12-21 20:45:19,108] INFO [mzik.service.IOServiceImpl: 29] println: Output:
+[2021-12-21 20:45:19,124] INFO [mzik.service.IOServiceImpl: 29] println: Ticket(id=1, passengerNo=45HT, passengerName=Olga, passengerLastName=Vorobiova, routeId=9, carParkBusNo=107, seatNo=5A, cost=1500)
+[2021-12-21 20:45:19,124] INFO [mzik.service.IOServiceImpl: 29] println: Ticket(id=2, passengerNo=56TY, passengerName=Sergey, passengerLastName=Komisrenko, routeId=5, carParkBusNo=113, seatNo=13A, cost=2000)
+[2021-12-21 20:45:19,124] INFO [mzik.service.IOServiceImpl: 29] println: Ticket(id=3, passengerNo=32HP, passengerName=Alexandr, passengerLastName=Dobrodushniy, routeId=7, carParkBusNo=90, seatNo=2B, cost=1300)
+[2021-12-21 20:45:19,124] INFO [mzik.service.IOServiceImpl: 29] println: Ticket(id=4, passengerNo=12BG, passengerName=Pavel, passengerLastName=Volya, routeId=8, carParkBusNo=107, seatNo=1A, cost=1800)
+[2021-12-21 20:45:19,124] INFO [mzik.service.IOServiceImpl: 29] println: Ticket(id=5, passengerNo=78VC, passengerName=Slava, passengerLastName=Afanasienko, routeId=1, carParkBusNo=54, seatNo=15B, cost=2500)
+[2021-12-21 20:45:19,124] INFO [mzik.service.IOServiceImpl: 29] println: Ticket(id=6, passengerNo=49AF, passengerName=Mikhail, passengerLastName=Molotov, routeId=2, carParkBusNo=108, seatNo=21B, cost=3100)
+[2021-12-21 20:45:19,124] INFO [mzik.service.IOServiceImpl: 29] println: Ticket(id=7, passengerNo=57GR, passengerName=Elena, passengerLastName=Kalashnikova, routeId=6, carParkBusNo=11, seatNo=16A, cost=1200)
+[2021-12-21 20:45:19,124] INFO [mzik.service.IOServiceImpl: 29] println: Ticket(id=8, passengerNo=74AK, passengerName=Ekaterina, passengerLastName=Belonidskaya, routeId=3, carParkBusNo=37, seatNo=20A, cost=900)
+[2021-12-21 20:45:19,124] INFO [mzik.service.IOServiceImpl: 29] println: Ticket(id=9, passengerNo=31MJ, passengerName=Anastasiya, passengerLastName=Beskhlebnaya, routeId=4, carParkBusNo=106, seatNo=6B, cost=1700)
+[2021-12-21 20:45:19,124] INFO [mzik.service.IOServiceImpl: 29] println: Ticket(id=10, passengerNo=98LG, passengerName=Oleg, passengerLastName=Goduniv, routeId=10, carParkBusNo=80, seatNo=5A, cost=2900)
+[2021-12-21 20:45:19,124] INFO [mzik.service.ConversationServiceImpl: 64] end of finding all
+[2021-12-21 20:45:19,124] INFO [mzik.service.ConversationServiceImpl: 68] getting command
+[2021-12-21 20:45:19,124] INFO [mzik.service.IOServiceImpl: 23] print: Please enter command("find-all" or "find-by-id" or "exit" to exit):
+[2021-12-21 20:45:35,030] INFO [mzik.service.ConversationServiceImpl: 28] commad got: find-by_id
+[2021-12-21 20:45:35,030] INFO [mzik.service.ConversationServiceImpl: 68] getting command
+[2021-12-21 20:45:35,030] INFO [mzik.service.IOServiceImpl: 23] print: Please enter command("find-all" or "find-by-id" or "exit" to exit):
+[2021-12-21 20:45:37,061] INFO [mzik.service.ConversationServiceImpl: 28] commad got: 4
+[2021-12-21 20:45:37,061] INFO [mzik.service.ConversationServiceImpl: 68] getting command
+[2021-12-21 20:45:37,061] INFO [mzik.service.IOServiceImpl: 23] print: Please enter command("find-all" or "find-by-id" or "exit" to exit):
+[2021-12-21 20:45:57,037] INFO [mzik.App: 16] Program started
+[2021-12-21 20:45:57,552] INFO [mzik.service.ConversationServiceImpl: 21] greeting user...
+[2021-12-21 20:45:57,552] INFO [mzik.service.IOServiceImpl: 29] println: Hello! Welcome!
+[2021-12-21 20:45:57,552] INFO [mzik.service.ConversationServiceImpl: 24] start getting command
+[2021-12-21 20:45:57,552] INFO [mzik.service.ConversationServiceImpl: 68] getting command
+[2021-12-21 20:45:57,552] INFO [mzik.service.IOServiceImpl: 23] print: Please enter command("find-all" or "find-by-id" or "exit" to exit):
+[2021-12-21 20:46:06,841] INFO [mzik.service.ConversationServiceImpl: 28] commad got: find-all
+[2021-12-21 20:46:06,841] INFO [mzik.service.ConversationServiceImpl: 60] start finding all
+[2021-12-21 20:46:06,841] INFO [mzik.dao.TicketDao: 25] start of dao method find all tickets

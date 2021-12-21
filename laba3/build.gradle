@@ -1,0 +1,47 @@
+// 1 lab
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'com.mzik'
+version '1.0.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+//    Lombok
+    compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.20'
+    annotationProcessor group: 'org.projectlombok', name: 'lombok', version: '1.18.20'
+
+//    Logger
+    implementation group: 'org.slf4j', name: 'slf4j-log4j12', version: '1.7.32'
+
+//    Postgresql
+    implementation group: 'org.postgresql', name: 'postgresql', version: '42.2.23'
+
+//    Spring
+    implementation group: 'org.springframework', name: 'spring-context', version: '5.3.10'
+    implementation group: 'org.springframework', name: 'spring-core', version: '5.3.10'
+
+//    Test
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    testImplementation group: 'org.mockito', name: 'mockito-all', version: '2.0.2-beta'
+    testImplementation group: 'org.assertj', name: 'assertj-core', version: '3.20.2'
+
+}
+
+application {
+    mainClass = 'com.mzik.App'
+}
+run {
+    standardInput = System.in
+}
+
+test {
+    useJUnitPlatform()
+}

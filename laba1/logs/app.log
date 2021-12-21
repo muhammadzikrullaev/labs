@@ -1,0 +1,25 @@
+2021-12-21 19:34:29.509  INFO 8316 --- [main] busdemo.BusDemoApplication               : Starting BusDemoApplication using Java 17.0.1 on DESKTOP-2HROAV3 with PID 8316 (C:\Users\Muhammad\Desktop\laba1\build\classes\java\main started by Muhammad in C:\Users\Muhammad\Desktop\laba1)
+2021-12-21 19:34:29.509  INFO 8316 --- [main] busdemo.BusDemoApplication               : No active profile set, falling back to default profiles: default
+2021-12-21 19:34:31.235  WARN 8316 --- [main] org.jline                                : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2021-12-21 19:34:31.469  INFO 8316 --- [main] busdemo.BusDemoApplication               : Started BusDemoApplication in 2.482 seconds (JVM running for 5.111)
+2021-12-21 19:35:01.325  INFO 8316 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-21 19:35:01.372 ERROR 8316 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalStateException: Failed to execute ApplicationRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:785) ~[spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:772) ~[spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:345) ~[spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-2.5.5.jar:2.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) ~[spring-boot-2.5.5.jar:2.5.5]
+	at busdemo.BusDemoApplication.main(BusDemoApplication.java:13) ~[main/:na]
+Caused by: java.lang.NullPointerException: Cannot invoke "org.jline.reader.ParsedLine.words()" because "this.parsedLine" is null
+	at org.springframework.shell.jline.ParsedLineInput.words(ParsedLineInput.java:44) ~[spring-shell-core-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.shell.Shell.noInput(Shell.java:194) ~[spring-shell-core-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.shell.Shell.evaluate(Shell.java:151) ~[spring-shell-core-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.shell.Shell.run(Shell.java:134) ~[spring-shell-core-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.shell.jline.InteractiveShellApplicationRunner.run(InteractiveShellApplicationRunner.java:84) ~[spring-shell-core-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:782) ~[spring-boot-2.5.5.jar:2.5.5]
+	... 5 common frames omitted
+
